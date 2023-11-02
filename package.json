@@ -85,5 +85,14 @@
     "dependencies": {
         "bob": "^2.7.0",
         "react-native-builder-bob": "^0.23.1"
+    },
+    "react-native-builder-bob": {
+        "source": "src",
+        "output": "lib",
+        "targets": [
+          "commonjs",
+          "module",
+          "typescript"
+        ]
     }
 }
